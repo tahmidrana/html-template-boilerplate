@@ -1,0 +1,34 @@
+/*
+* Responsive css code goes here
+*/
+
+/* for devices less than 768px mobile */
+@media only screen and (max-width: 768px) {
+    .body{
+		background-color: #e74c3c;
+	}
+}
+
+
+/* for devices greater than 768px tablet */
+@media only screen and (min-width: 768px) {
+	.body{
+		background-color: #34495e;
+	}
+}
+
+
+/* for devices greater than 992px desktop */
+@media only screen and (min-width: 992px) {
+	.body{
+		background-color: #9b59b6;
+	}	
+}
+
+
+/* for devices greater than 1200px large desktop */
+@media only screen and (min-width: 1200px) {
+	.body{
+		background-color: #1abc9c;
+	}
+}
